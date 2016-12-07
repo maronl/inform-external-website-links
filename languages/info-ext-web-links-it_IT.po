@@ -1,0 +1,103 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Inform External Website Links WP Plpugin\n"
+"POT-Creation-Date: 2016-12-07 16:31+0100\n"
+"PO-Revision-Date: 2016-12-07 16:40+0100\n"
+"Last-Translator: \n"
+"Language-Team: Luca Maroni <lcmaroni77@gmail.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/modal-template-bootstrap.php:7
+msgid "title"
+msgstr "Link Esterno"
+
+#: inc/modal-template-bootstrap.php:10
+msgid "disclaimer"
+msgstr ""
+"              <p>\n"
+"                State per raggiungere un sito Esterno.  Noi non siamo "
+"responsabili della politica sulla privacy,\n"
+"                del contenuto o dell'accuratezza di qualsiasi sito web "
+"Esterno.\n"
+"              </p>\n"
+"              <p>\n"
+"                Un link ad altri siti non costituisce approvazione da parte "
+"nostra del sito collegato,\n"
+"                dei suoi prodotti o servizi.\n"
+"              </p>\n"
+"              <p>\n"
+"                Le restrizioni normative possono variare da un paese "
+"all'altro, e di conseguenza,\n"
+"                le informazioni contenute nel sito a cui ci si sta "
+"collegando possono essere non rilevanti per il paese\n"
+"                in cui vi trovate.\n"
+"              </p>\n"
+"              <p>\n"
+"                Cliccando sul pulsante \"VAI AL SITO\", dichiaro di aver "
+"letto, compreso e approvato le precedenti dichiarazioni\n"
+"              </p>"
+
+#: inc/modal-template-bootstrap.php:13
+msgid "no-link"
+msgstr "NON VOGLIO ACCEDERE"
+
+#: inc/modal-template-bootstrap.php:14
+msgid "yes-link"
+msgstr "VAI AL SITO"
+
+#~ msgid "year"
+#~ msgstr "anno"
+
+#~ msgid "years"
+#~ msgstr "anni"
+
+#~ msgid "month"
+#~ msgstr "mese"
+
+#~ msgid "months"
+#~ msgstr "mesi"
+
+#~ msgid "week"
+#~ msgstr "settimana"
+
+#~ msgid "weeks"
+#~ msgstr "settimane"
+
+#~ msgid "day"
+#~ msgstr "giorno"
+
+#~ msgid "days"
+#~ msgstr "giorni"
+
+#~ msgid "hour"
+#~ msgstr "ora"
+
+#~ msgid "hours"
+#~ msgstr "ore"
+
+#~ msgid "minute"
+#~ msgstr "minuto"
+
+#~ msgid "minutes"
+#~ msgstr "minuti"
+
+#~ msgid "second"
+#~ msgstr "secondo"
+
+#~ msgid "seconds"
+#~ msgstr "secondi"
+
+#~ msgid "sometime"
+#~ msgstr "qualchevolta"
+
+#~ msgid " ago"
+#~ msgstr " fa"
