@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
     // Il valore di HREF viene trasferito sul pulsante interno del modal stesso
     var host = window.location.host;
     // This is an external link
-    $('a:not([href^="http://' + host +'"]):not([href^="https://' + host +'"]):not([href^="#"]):not([href^="Javascript:void(0);"]):not([href^="/"]):not([href^="./"]):not([id*="pd-vote"])').each(function(){
+    $('a:not([href^="http://' + host +'"]):not([href^="https://' + host +'"]):not([href^="mailto"]):not([href^="#"]):not([href^="Javascript:void(0);"]):not([href^="/"]):not([href^="./"]):not([id*="pd-vote"])').each(function(){
         iewl_rewrite_link($(this));
     });
 
