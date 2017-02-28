@@ -27,7 +27,7 @@ add_action('init', 'iewl_load_plugin_textdomain');
 function iewl_load_js_scripts()
 {
     // Register the script like this for a plugin:
-    wp_register_script('iewl-main', plugins_url('assets/js/main1.0.js', __FILE__));
+    wp_register_script('iewl-main', plugins_url('assets/js/main1.1.js', __FILE__));
 
     // For either a plugin or a theme, you can then enqueue the script:
     wp_enqueue_script('iewl-main', '', array('jquery'));
