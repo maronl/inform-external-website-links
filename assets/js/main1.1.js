@@ -3,8 +3,12 @@ jQuery(document).ready(function($) {
     // Trasforma i link esterni in link a finestre modal con disclaimer.
     // Il valore di HREF viene trasferito sul pulsante interno del modal stesso
     var host = window.location.host;
+    var hostNoWWW = window.location.host;
+    if (hostNoWWW.indexOf('www.') == 0) {
+        hostNoWWW = hostNoWWW.slice(4);
+    };
     // This is an external link
-    $('a:not([href^="http://' + host +'"]):not([href^="https://' + host +'"]):not([href^="http://www.takeda.it"]):not([href^="https://www.takeda.it"]):not([href^="mailto"]):not([href^="#"]):not([href^="Javascript:void(0);"]):not([href^="/"]):not([href^="./"]):not([id*="pd-vote"])').each(function(){
+    $('a:not([href^="http://' + host +'"]):not([href^="https://' + host +'"]):a:not([href^="http://' + hostNoWWW +'"]):not([href^="https://' + hostNoWWW +'"]):not([href^="http://www.takeda.it"]):not([href^="https://www.takeda.it"]):not([href^="mailto"]):not([href^="#"]):not([href^="Javascript:void(0);"]):not([href^="/"]):not([href^="./"]):not([id*="pd-vote"])').each(function(){
         iewl_rewrite_link($(this));
     });
 
